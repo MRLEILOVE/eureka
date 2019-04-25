@@ -136,6 +136,15 @@ Spring Boot Admin 用于管理和监控一个或多个Spring Boot程序，在 Sp
 
 这里说一下，我们的商品和订单实际上就可以看作是服务监控的客户端。
 
+## 八、链路追踪（Spring Cloud Sleuth）
+效果图：
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2019042523262969.?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0ODQ1Mzk0,size_16,color_FFFFFF,t_70)
+
+使用很简单，参考下面的博客即可：
+- [服务链路追踪(Spring Cloud Sleuth)](https://www.cnblogs.com/duanxz/p/7552857.html)
+- [SpringCloud入门实战之九：服务链路追踪(Spring Cloud Sleuth)](https://blog.csdn.net/zhengzizhi/article/details/81151408)
+
 ## 相关资料
 
 - [* Spring Cloud微服务实战-SpringBoot2.X - 视频](链接: https://pan.baidu.com/s/1--hMJSvQimIrnafrudS6XQ 提取码: 533p)
@@ -157,7 +166,5 @@ Spring Boot Admin 用于管理和监控一个或多个Spring Boot程序，在 Sp
 - [springcloud-admin-服务监控server端](https://github.com/MRLEILOVE/springcloud-admin.git)
 
 上面的示例代码几乎是按照此视频编写的(减少了一些业务流程), 项目是一个关于商品和订单的，订单服务调用商品服务的接口（查询商品信息），然后进行订单、订单详情添加。
-
-
 
 
